@@ -1,0 +1,23 @@
+.nav{
+    width: 100%;
+    padding: 1.37vw 4.2vw;
+    color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index:999;
+}
+.links{
+    font-size: 1.1vw;
+    display: flex;
+    gap: 3vw;
+    text-transform: capitalize;
+
+}
+.link{
+    font-family: "poppins";
+}
+.link:nth-child(5){
+    margin-left: 6vw;
+}

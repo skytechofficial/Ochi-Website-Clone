@@ -1,0 +1,69 @@
+.landing-page{
+    width: 100%;
+    height: 100%;
+    background: #F1F1F1;
+    color: #fff;
+    padding: .5vw;
+}
+.text-cont{
+    padding: 10vw 4.2vw;
+}
+.masker{
+    overflow: hidden;
+}
+.inner-mask{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.heading{
+    font-family: "Proxima Nova Thin";
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: -.35vw;
+    line-height: 6.7vw;
+    display: flex;
+    color: #212121;
+}
+.ochi-video{
+    width: 9vw;
+    height: 5.5vw;
+    position: relative;
+    background: red;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.bottom-options{
+    font-family: "Proxima Nova";
+    padding: 1.3vw .8vw;
+    border-top: 1px solid #F1F1F1;
+    display: flex;
+    justify-content: space-between;
+    gap: 21vw;
+    align-items: center;
+    color: #212121;
+}
+.options{
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    font-size: 1.35vw;
+}
+.start{
+    display: flex;
+    align-items: center;
+    gap:.3vw;
+}
+.startChild{
+    font-family: "Proxima Nova";
+    padding: 0 1.2vw;
+    border: 1.3px solid #F1F1F1;
+    border-radius: 500px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+.arrow{
+    padding: 0 4px;
+    border: 1.2px solid #F1F1F1;
+    border-radius: 500px;
+}

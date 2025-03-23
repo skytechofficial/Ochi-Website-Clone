@@ -1,0 +1,102 @@
+.feature-container{
+    width: 100%;
+    padding: 5vw 0;
+    background: #F1F1F1;
+}
+.cont{
+    width: 100%;
+    padding :0 5.2vw;
+    border-bottom: 1.4px solid #D2D2D2;
+    padding-bottom: 2vw;
+}
+.cont h1{
+    font-size: 3.7vw;
+}
+.cards{
+    display: flex;
+    gap: 2vw;
+    width: 100%;
+    margin-top: 2vw;
+}
+.card{
+    width: 50%;
+    height: 80vh;
+    border-radius: 12px;
+    transition: all .5s ease-in-out;
+}
+.card:hover{
+    transform: scale(96%);
+}
+.cards-parent{
+    padding: 0 4.1vw;
+}
+.card img{
+    width: 100%;
+    border-radius: 12px;
+    height: 100%;
+    object-fit: cover;
+    transition: all .5s ease-in-out;
+}
+.card img:hover{
+    transform: scale(108%);
+}
+.vise{
+    font-size: 8vw;
+    color: #CDEA68;
+    position: absolute;
+    z-index: 9999;
+    margin-top: -25.4vw;
+    margin-left: -11.9vw;
+    opacity: 0;
+    font-weight: 500;
+}
+.card:hover .vise{
+    animation-name: anime2;
+    animation-duration: 2s;
+}
+@keyframes anime2 {
+    from{
+        opacity: 0;
+    margin-top: -15.4vw;
+    margin-left: -11.9vw;
+    }
+    to{
+        opacity: 100%;
+    margin-top: -25.4vw;
+    margin-left: -11.9vw;
+    }
+}
+.fude{
+    font-size: 8vw;
+    color: #CDEA68;
+    position: absolute;
+    z-index: 9999;
+    margin-top: -25.4vw;
+    margin-left: 36.9vw;
+    opacity: 0;
+    font-weight: 500;
+
+}
+.card:hover .fude{
+    animation-name: anime2;
+    animation-duration: 2s;
+}
+@keyframes anime2 {
+    from{
+        opacity: 0;
+    margin-top: -15.4vw;
+    }
+    to{
+        opacity: 100%;
+    margin-top: -25.4vw;
+    }
+}
+.card-board{
+    font-size: 8vw;
+    color: #CDEA68;
+    position: absolute;
+    z-index: 9999;
+    margin-top: -25.4vw;
+    margin-left: 23.9vw;
+    font-weight: 500;
+}

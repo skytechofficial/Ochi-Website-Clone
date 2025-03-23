@@ -1,0 +1,43 @@
+.marquee-container{
+    width: 100%;
+    background: #004d43;
+    padding-top: 8vw;
+    padding-bottom: 1.9vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+.text-container{
+    border-top: 1.5px solid #3C776F;
+    border-bottom: 1.5px solid #3C776F;
+    display: flex;
+    gap: 1.3vw;
+    white-space: nowrap;
+    overflow: hidden;
+}
+    .text-container h1{
+        font-family: 'Roboto Condensed';
+        font-size: 21vw;
+        letter-spacing: -.7vw;
+        word-spacing: -.65vw;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #F1F1F1;
+        margin-top: -7vw;
+        margin-bottom: -7vw;
+        animation-name: anime1;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+      
+      @keyframes anime1 {
+        from {
+          /* Define the starting position or style here */
+          transform: translateX(0); /* Example: start from the left */
+        }
+        to {
+          /* Define the ending position or style here */
+          transform: translateX(-100%); /* Example: move to the left */
+        }
+      }
+      
