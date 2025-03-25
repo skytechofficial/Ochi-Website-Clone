@@ -17,9 +17,9 @@
     align-items: center;
 }
 .heading{
-    font-family: "Proxima Nova Thin";
+    font-family: "Montserrat";
     font-size: 7vw;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: -.35vw;
     line-height: 6.7vw;
     display: flex;
@@ -44,9 +44,9 @@
     color: #212121;
 }
 .options{
-    font-family: "Proxima Nova";
+    font-family: "Montserrat";
     font-weight: 400;
-    font-size: 1.35vw;
+    font-size: 1.21vw;
 }
 .start{
     display: flex;
@@ -54,7 +54,7 @@
     gap:.3vw;
 }
 .startChild{
-    font-family: "Proxima Nova";
+    font-family: "Montserrat";
     padding: 0 1.2vw;
     border: 1.3px solid #F1F1F1;
     border-radius: 500px;
